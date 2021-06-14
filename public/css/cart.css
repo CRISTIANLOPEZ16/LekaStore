@@ -1,0 +1,58 @@
+.sku{
+    font-size: 75%;
+}
+.t1 p{
+    display: inline ;
+}
+
+
+.input-fieldd input::placeholder {
+    color: #aaa;
+    font-weight: 400;
+    
+  }
+.input-fieldd {
+  max-width: 400px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 41px;
+  border-radius: 41px;
+  display: grid;
+  padding: 0 0.4rem;
+  position: relative;
+  
+}
+.input-fieldd input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 1.0rem;
+    color: #333;
+    margin-left: 10%;
+    width: 85%;
+  }
+  .btn.solidd {
+    margin: 0;
+    background: #77cfcf ;
+    border: 2px solid #77cfcf ;
+    width: 100%;
+    height: 41px ;
+    font-weight: 400 ;
+    font-size: 1.0rem;
+    border-radius: 49px;
+    color: #fff !important;
+    
+  }
+  .btn.solidd:hover {
+    background-color:#42cccc; 
+    border-color: #42cccc; 
+  }
+
+#info p{
+  font-size: 22px;
+}
+
+  
