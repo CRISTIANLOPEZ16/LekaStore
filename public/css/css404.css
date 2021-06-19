@@ -1,0 +1,46 @@
+ 
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background: #a1d1d1;
+            }
+
+            .container-404{
+                float: right;
+                width: 100%;
+                max-width: 600px;
+                padding: 100px;
+                line-height: 1.7;
+                color: #fff;
+                
+            }
+
+            div h1{
+                font-size: 120px;
+            }
+
+            div p{
+                font-size: 20px;
+            }
+
+            .alinear{
+                 
+            }
+
+            .boton{
+                display: inline-block;
+                margin-top: 15px;
+                text-decoration: none;
+                color: #fff;
+                padding: 5px 30px;
+                border-radius: 20px;
+                border: 2px solid #fff
+            }
+
+            .boton:hover{
+                background: #fe809a;
+            }

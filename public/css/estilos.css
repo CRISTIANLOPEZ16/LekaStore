@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 90px auto;
+    grid-template-areas: "menu contenido";
+    transition: all .3s ease;
+}
+
+.contenedor.active{
+    grid-template-columns: 300px auto;
+}
+
+.menu-lateral .loguito {
+    width: 55%;
+    height: auto;
+    padding-top: 40px;
+}
+
+.menu-lateral .centrar{
+    width: 100%;
+    text-align: center;
+}
+
+.menu-lateral{
+    grid-area: menu;
+    background: #99c9c9;
+    overflow: hidden;
+}
+
+.menu-lateral .fondo-menu{
+    background: #e5c1c1;
+}
+
+.menu-lateral a{
+    display: block;
+    padding: 15px 35px;
+    color: #000;
+    min-width: 800px;
+}
+
+.menu-lateral a:hover{
+    text-decoration: none;
+    background: #e8b0b0;
+}
+
+.menu-lateral a.active{
+    text-decoration: none;
+    background: #e5e5e5;
+    font-weight: bold;
+}
+
+.menu-lateral .btn-salir a{
+    padding: 15px 45px;
+    color: #000000;
+    min-width: 800px;
+}
+
+.menu-lateral .btn-salir a:hover{
+    padding: 15px 45px;
+    background: #6fc7c7;
+    min-width: 800px;
+}
+
+.menu-lateral .btn-salir .fas{
+    width: 200px;
+    text-align: center;
+}
+
+.menu-lateral .fas{
+    margin-right: 35px;
+    width: 20px;
+    text-align: center;
+}
+
+.menu-lateral hr{
+    margin: 20px 0;
+    border: 1px solid #e5c1c1;
+}
+
+.main{
+    grid-area: contenido;
+    background: #ffffff;
+    padding: 40px;
+}
+
+.main div div div div .sinfondo{
+    border: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+.main div div div .sinfondo{
+    border: 0px;
+    float: right;
+    background-color: white;
+}
+
+.main form{
+    text-align: center;
+}
+
+.main div div .botoncito{
+    background-color: #99c9c9;
+    width: 100%;
+}
+
+.main div div .botoncito:hover{
+    background-color: #6b8b8b;
+}
+
+.main div img{
+    display: block;
+    margin: auto;
+}
+
+.main div div .der{
+    text-align: right;
+}
+
+.main div .cierre{
+    background-color: #6fc7c7;
+}
+
+.main div .cierre:hover{
+    background-color: #239696;
+}
+
+.main .botonCierre{
+    text-align: right;
+}
+
+.main .botonVendedores{
+    text-align: right;
+}
+
+.main div div div div h5{
+    margin-left: auto;
+    margin-right: auto;
+}

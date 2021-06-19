@@ -6,6 +6,7 @@
     <? require("view/header.php");?>
     <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/page.css">
     <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/cart.css">
+    <link class="logo" rel="icon" href="<?php echo constant('URL');?>public/img/logo.jpg">
 </head>
 <body>
 <!--Navbar -->
@@ -26,11 +27,11 @@
             <br>
             <br>
             <b><p>Llámanos al:</p></b>
-            914-123-456
+            313-207-0709
             <br>
             o envíanos un email:
             <br>
-            lekastore@gmail.com
+            contacto@lekastore.net
         </div>
         <div class="col">
             <form action="#" class="sign-in-form">
@@ -57,7 +58,6 @@
     
     </div>
 </div>
-
  <!--/.Form -->
 
 

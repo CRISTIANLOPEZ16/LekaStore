@@ -6,75 +6,47 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/style.css">
+    
+    <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/page.css" />
+    <link rel="stylesheet" href="<?php echo constant('URL');?>public/css/style2.css" />
     <title>Iniciar Sesión | Leka Store</title>
+    
   </head>
   <body>
-    <div class="container">
-      <div class="forms-container">
-        <div class="signin-signup">
-          <form action="#" class="sign-in-form">
-            <h2 class="title">Iniciar Sesión</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Usuario" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" />
-            </div>
-            <a href="" class="has">¿Has olvidado tu contraseña?</a>
-            <input type="submit" value="Ingresar" class="btn solid" /></a>
-          </form>
-          
-          <form action="#" class="sign-up-form">
-            <h2 class="title">Registrate</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Usuario" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" />
-            </div>
-            <input type="submit" class="btn" value="Registrar" />
-
-          </form>
-        </div>
-      </div>
-
-      <div class="panels-container">
-        <div class="panel left-panel">
-          <div class="content">
-            <h3>¿No te has registrado?</h3>
-            <p>
-              ¡Bienvenido a Leka Store! Si aún no tienes una cuenta, registrate aquí.
-            </p>
-            <button class="btn transparent" id="sign-up-btn">
-              Registrate
-            </button>
-          </div>
-          <img src="../img/undraw_donut_love_kau1.svg" class="image" alt="" />
-        </div>
-        <div class="panel right-panel">
-          <div class="content">
-            <h3>¿Ya tienes tu cuenta?</h3>
-            <p>
-              Si ya tienes una, puedes iniciar sesión aquí.
-            </p>
-            <button class="btn transparent" id="sign-in-btn">
-              Iniciar sesión
-            </button>
-          </div>
-          <img src="../img/undraw_well_done_i2wr.svg" class="image" alt="" />
-        </div>
-      </div>
+      <? require("view/barra.php") ?>
+    <img class="wave" src="<?php echo constant('URL');?>public/img/image.png">
+  <div class="container">
+    <div class="img">
+      <img src="<?php echo constant('URL');?>public/img/undraw_donut_love_kau1.svg">
     </div>
-
-    <script src="../js/app.js"></script>
+    <div class="login-content">
+      <form action="index.html">
+        <img src="<?php echo constant('URL');?>public/img/undraw_profile_pic_ic5t (2).svg">
+        <h2 class="title">Iniciar Sesión</h2>
+              <div class="input-div one">
+                 <div class="i">
+                    <i class="fas fa-user"></i>
+                 </div>
+                 <div class="div">
+                    <input id="email" type="email" placeholder="Email" class="input">
+                 </div>
+              </div>
+              <div class="input-div pass">
+                 <div class="i"> 
+                    <i class="fas fa-lock"></i>
+                 </div>
+                 <div class="div">
+                    <input id="pass" type="password" placeholder="Contraseña" class="input">
+                 </div>
+              </div>
+              <a href="#">¿Has olvidado tu contraseña?</a>
+              <input id="login" type="submit" class="btn" value="Iniciar sesión">
+        <a href="<?php echo constant('URL');?>registro/">Registrate</a>
+            </form>
+        </div>
+    </div>
+    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="<?php echo constant('URL');?>public/js/login.js?18"></script>
   </body>
 </html>

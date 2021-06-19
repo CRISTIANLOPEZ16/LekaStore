@@ -5,7 +5,10 @@
     display: inline ;
 }
 
-
+.foto{
+    width: 100% !important;
+    margin-bottom: 20px;
+}
 .input-fieldd input::placeholder {
     color: #aaa;
     font-weight: 400;

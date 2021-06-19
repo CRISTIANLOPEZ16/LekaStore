@@ -4,12 +4,9 @@
  */
 class Model 
 {
-    /**
-     * summary
-     */
     public function __construct()
     {
-        echo 'hi';
+        $this->conexion=conexion::getConexion();
     }
 }
 

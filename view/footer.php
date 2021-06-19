@@ -1,8 +1,14 @@
-
 <!--Footer -->
+<style type="text/css">
+.container2{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+}
 
-<div class="footer">
-  <div class="container text-center py-4">
+</style>
+<div style="text-shadow: 2px 2px 2px dimgray; bottom: 0;"  class="footer">
+  <div class="container2 text-center py-4">
   <div class="row">
     <div class="col mb-4">
       <p>SIGUE CONECTADO</p>
@@ -21,28 +27,18 @@
         </a>
       </div>
     </div>
-    <div class="col mb-4">
-      <p>ESCRÍBENOS</p>
-      <form action="#" class="sign-in-form">
-        <div class="input-field">
-          <i class="far fa-envelope"></i>
-           <input type="text" placeholder="Ingresa tu email aquí*" />
-        </div>
-        <input type="submit" value="Unirse" class="btn solid" />
-      </form>
-    </div>
+
     <div class="col">
       <p>¿NECESITAS AYUDA?</p>
           313-207-0709
           <br>
-          lekastore@gmail.com
+          contacto@lekastore.net
     </div>
   </div>
 </div>
-<div class="container text-center py-2">
+<div class="container2 text-center py-2">
   <p>© 2021 hecho para LEKA STORE. Creado por SUPREME</p>
 </div>
 </div>
 
 <!--/.Footer -->
-
